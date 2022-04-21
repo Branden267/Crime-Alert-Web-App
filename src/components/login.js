@@ -94,13 +94,14 @@ class SigninComponent extends React.Component {
                         /><br /><br />
                     <RaisedButton type="submit" label="Sign in" primary={true} /><br />
                <br /><br />OR<br /><br />Create Account<Link to="/signup"><br /><br /><RaisedButton label="Signup" primary={false} /></Link>
-                
+                    
                 </form>
                 </center>
             </div>
         )
     }
 }
+
 SigninComponent.PropTypes = {
     _inputHandler: React.PropTypes.func.isRequired,
     _submit: React.PropTypes.func.isRequired
