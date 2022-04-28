@@ -26,6 +26,8 @@ function initMap() {
     })
 }
 </script>
+<script async defer src="https://maps.googleapis.com/maps/api/
+js?key=AIzaSyAsop5XwnDZ2hOo-AVAu0zn0MflUAv3Pe8&callback=initMap"></script>
 
 </body>
 </html>
